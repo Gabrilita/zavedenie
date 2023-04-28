@@ -15,8 +15,6 @@ namespace ConsoleApp1
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Избери маса: пушачи или непушачи? ");
             string vidMasa = Console.ReadLine();
-            //Console.WriteLine("Начин на плащане: кеш или карта? ");
-            //string nachinNaPlashtane = Console.ReadLine();
             Console.WriteLine();
 
             Console.WriteLine("Избери храна: ");
@@ -84,43 +82,66 @@ namespace ConsoleApp1
             double shopskaS = shopska* 5.50;
             double mlechnaS = mlechni * 3.70;
             double trushiqS = trushiq* 4.85;
-            Console.WriteLine("За салати:" + shopskaS + mlechnaS + trushiqS);
+            Console.WriteLine("За салати: " +( shopskaS + mlechnaS + trushiqS));
             double kebapcheO = kebapche * 3.00;
             double kartofO = kartofi * 10.00;
             double agneshko = agneshki * 25.00;
-            Console.WriteLine("За основно: " +kebapcheO+kartofO+agneshki);
+            Console.WriteLine("За основно: " +(kebapcheO+kartofO+agneshki));
             double tortaD = torti * 3.00;
             double sladoledD = sladoled * 2.50;
             double kremD = krem * 3.00;
-            Console.WriteLine("За десерт: " + tortaD+sladoledD+kremD);
+            Console.WriteLine("За десерт: " + (tortaD+sladoledD+kremD));
             double freshB = fresh * 4.00;
             double gaziranoB = gazirano * 1.00;
             double vodaB = voda * 0.80;
-
+            Console.WriteLine("За безалкохолни: "+( freshB+ gaziranoB+ vodaB ));
             double chaiT = chai * 0.70;
             double kafeT = kafe * 2.00;
             double grT =grqnaRakiq* 7.00;
-
+            Console.WriteLine("За топли напитки: "+ (chaiT + kafeT + grT) );
             double rakiqA = rakiq * 7.00;
             double uiskiA = uiski * 5.50;
             double vodkaA = vodka * 15;
-
-           
-           
-           
-
-
-            for (int i = 0; i < n; i++)
+            Console.WriteLine("За алкохол: " + (rakiqA+uiskiA+vodkaA));
+            Console.WriteLine("Общо до тук: "+ (shopskaS + mlechnaS + trushiqS + kebapcheO + kartofO + agneshki+tortaD + sladoledD + kremD+freshB + gaziranoB + vodaB + chaiT + kafeT + grT));
+            Console.WriteLine();
+            Console.Write("Начин на плащане: кеш или карта?: ");
+            string nachinNaPlashtane = Console.ReadLine();
+            if (nachinNaPlashtane == "кеш")
             {
-                Console.WriteLine("Какви салати?: ");
-                
+                Console.Write("Ще даваш ли бакшиш?: ");
+                string bakshish = Console.ReadLine();
+                if (bakshish=="да")
+                {
+                    Console.Write("Колко бакшиш ще оставиш?: ");
+                    double bak = double.Parse(Console.ReadLine());
+                    Console.WriteLine((bak+shopskaS + mlechnaS + trushiqS + kebapcheO + kartofO + agneshki + tortaD + sladoledD + kremD + freshB + gaziranoB + vodaB + chaiT + kafeT + grT));
+                }
+                if (bakshish=="не")
+                {
+                    Console.WriteLine((shopskaS + mlechnaS + trushiqS + kebapcheO + kartofO + agneshki + tortaD + sladoledD + kremD + freshB + gaziranoB + vodaB + chaiT + kafeT + grT));
+                }
+
 
             }
+            else
+            {
+
+                Console.WriteLine((shopskaS + mlechnaS + trushiqS + kebapcheO + kartofO + agneshki + tortaD + sladoledD + kremD + freshB + gaziranoB + vodaB + chaiT + kafeT + grT)*0.5);
+            }
+            Console.ReadKey();
+
+           
 
 
-            
 
-            
+
+
+
+
+
+
+
         }
     }
 }
