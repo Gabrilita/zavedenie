@@ -1,0 +1,12 @@
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\bin\Debug\Zawedenie.exe.config
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\bin\Debug\Zawedenie.exe
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\bin\Debug\Zawedenie.pdb
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.Form1.resources
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.Form2.resources
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.Properties.Resources.resources
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.csproj.GenerateResource.cache
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.exe
+C:\Users\gabri\source\repos\Zawedenie\Zawedenie\obj\Debug\Zawedenie.pdb

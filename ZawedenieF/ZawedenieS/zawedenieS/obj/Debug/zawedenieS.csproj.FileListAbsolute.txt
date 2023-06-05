@@ -1,0 +1,8 @@
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\bin\Debug\zawedenieS.exe.config
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\bin\Debug\zawedenieS.exe
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\bin\Debug\zawedenieS.pdb
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\obj\Debug\zawedenieS.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\obj\Debug\zawedenieS.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\obj\Debug\zawedenieS.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\obj\Debug\zawedenieS.exe
+C:\Users\gabri\source\repos\zawedenieS\zawedenieS\obj\Debug\zawedenieS.pdb
